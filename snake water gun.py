@@ -18,7 +18,7 @@ def Game(comp,you):
             return False
         elif you =='w':
             return True
-print("comp turn : snake(s) water(w) or  gun(g)?")
+print("computer turn : snake(s) water(w) or  gun(g)?")
 randNo=random.randint(1, 3)
 if randNo==1:
     comp ='s'
