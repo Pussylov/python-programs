@@ -1,8 +1,8 @@
-n = int(input("enter number"))
+n = 4
 a=1
 for i in range(1,n+1):
     for j in range (1,i+1):
-        print(" "*(i+2),end="")
-        print(a)
+        print(f"{a} ",end="")
+        
         a = a+1
     print()
